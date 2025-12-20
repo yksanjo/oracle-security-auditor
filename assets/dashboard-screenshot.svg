@@ -1,123 +1,145 @@
-<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+<svg width="1400" height="900" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="1200" height="800" fill="#f5f5f5"/>
+  <rect width="1400" height="900" fill="#0a0a0a"/>
   
   <!-- Header -->
-  <rect width="1200" height="60" fill="#dc2626"/>
-  <text x="30" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Oracle Security Auditor</text>
-  <text x="1000" y="40" font-family="Arial, sans-serif" font-size="14" fill="white">Security Dashboard</text>
+  <rect width="1400" height="80" fill="#1a1a1a"/>
+  <rect width="1400" height="4" fill="#dc2626"/>
+  <text x="40" y="50" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#fca5a5">🔒 Oracle Security Auditor</text>
+  <text x="40" y="70" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8">Enterprise Security &amp; Compliance Platform</text>
+  <circle cx="1320" cy="40" r="6" fill="#ef4444"/>
+  <text x="1340" y="45" font-family="Arial, sans-serif" font-size="12" fill="#fca5a5" font-weight="bold">SECURE</text>
+  <text x="1200" y="45" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Last Scan: 2h ago</text>
+  <text x="1200" y="65" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Database: PROD-DB-01</text>
   
-  <!-- Security Overview -->
-  <rect x="20" y="80" width="1160" height="180" fill="#ffffff" stroke="#e0e0e0" rx="4"/>
-  <text x="40" y="110" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#dc2626">Security Overview</text>
+  <!-- Security Overview Cards -->
+  <rect x="30" y="110" width="320" height="160" fill="#1a1a1a" stroke="#dc2626" rx="10" stroke-width="2"/>
+  <text x="50" y="140" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8" font-weight="bold">SECURITY SCORE</text>
+  <text x="50" y="185" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#fca5a5">78</text>
+  <text x="120" y="185" font-family="Arial, sans-serif" font-size="32" fill="#64748b">/100</text>
+  <rect x="50" y="200" width="280" height="8" fill="#1e293b" rx="4"/>
+  <rect x="50" y="200" width="218" height="8" fill="#f59e0b" rx="4"/>
+  <text x="50" y="230" font-family="Arial, sans-serif" font-size="13" fill="#f59e0b" font-weight="bold">⚠️ Medium Risk</text>
+  <text x="50" y="250" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Target: 90+ | Trend: ↑ 5 points</text>
+  <text x="50" y="265" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Last scan: 2 hours ago</text>
   
-  <!-- Security Score -->
-  <rect x="40" y="130" width="250" height="110" fill="#fef2f2" stroke="#dc2626" rx="4"/>
-  <text x="50" y="155" font-family="Arial, sans-serif" font-size="12" fill="#666">Security Score</text>
-  <text x="50" y="185" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#dc2626">78/100</text>
-  <text x="50" y="210" font-family="Arial, sans-serif" font-size="11" fill="#d97706">Medium Risk</text>
-  <text x="50" y="225" font-family="Arial, sans-serif" font-size="11" fill="#666">Last scan: 2 hours ago</text>
+  <rect x="370" y="110" width="320" height="160" fill="#1a1a1a" stroke="#dc2626" rx="10" stroke-width="2"/>
+  <text x="390" y="140" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8" font-weight="bold">CRITICAL ISSUES</text>
+  <text x="390" y="185" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#ef4444">3</text>
+  <text x="390" y="220" font-family="Arial, sans-serif" font-size="13" fill="#ef4444" font-weight="bold">Requires Immediate Action</text>
+  <text x="390" y="240" font-family="Arial, sans-serif" font-size="12" fill="#fca5a5">High: 8 | Medium: 15 | Low: 22</text>
+  <text x="390" y="255" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Total Issues: 48</text>
+  <text x="390" y="270" font-family="Arial, sans-serif" font-size="11" fill="#10b981">Resolved: 12 (20%)</text>
   
-  <!-- Vulnerabilities -->
-  <rect x="310" y="130" width="250" height="110" fill="#fee2e2" stroke="#dc2626" rx="4"/>
-  <text x="320" y="155" font-family="Arial, sans-serif" font-size="12" fill="#666">Critical Issues</text>
-  <text x="320" y="185" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#dc2626">3</text>
-  <text x="320" y="210" font-family="Arial, sans-serif" font-size="11" fill="#dc2626">Requires immediate action</text>
-  <text x="320" y="225" font-family="Arial, sans-serif" font-size="11" fill="#666">High: 8 | Medium: 15</text>
+  <rect x="710" y="110" width="320" height="160" fill="#1a1a1a" stroke="#10b981" rx="10" stroke-width="2"/>
+  <text x="730" y="140" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8" font-weight="bold">COMPLIANCE STATUS</text>
+  <text x="730" y="185" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#10b981">85%</text>
+  <text x="730" y="220" font-family="Arial, sans-serif" font-size="13" fill="#10b981">✅ SOX: Compliant</text>
+  <text x="730" y="240" font-family="Arial, sans-serif" font-size="13" fill="#10b981">✅ GDPR: Compliant</text>
+  <text x="730" y="260" font-family="Arial, sans-serif" font-size="13" fill="#f59e0b">⚠️ HIPAA: Partial</text>
+  <text x="730" y="270" font-family="Arial, sans-serif" font-size="13" fill="#f59e0b">⚠️ PCI-DSS: Partial</text>
   
-  <!-- Compliance -->
-  <rect x="580" y="130" width="250" height="110" fill="#f0fdf4" stroke="#16a34a" rx="4"/>
-  <text x="590" y="155" font-family="Arial, sans-serif" font-size="12" fill="#666">Compliance Status</text>
-  <text x="590" y="185" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#16a34a">✅ 85%</text>
-  <text x="590" y="210" font-family="Arial, sans-serif" font-size="11" fill="#059669">SOX: ✅ | GDPR: ✅</text>
-  <text x="590" y="225" font-family="Arial, sans-serif" font-size="11" fill="#d97706">HIPAA: ⚠️ | PCI-DSS: ⚠️</text>
-  
-  <!-- Users -->
-  <rect x="850" y="130" width="250" height="110" fill="#ecfeff" stroke="#0891b2" rx="4"/>
-  <text x="860" y="155" font-family="Arial, sans-serif" font-size="12" fill="#666">User Accounts</text>
-  <text x="860" y="185" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#0891b2">247</text>
-  <text x="860" y="210" font-family="Arial, sans-serif" font-size="11" fill="#dc2626">12 inactive accounts</text>
-  <text x="860" y="225" font-family="Arial, sans-serif" font-size="11" fill="#d97706">5 default passwords</text>
+  <rect x="1050" y="110" width="320" height="160" fill="#1a1a1a" stroke="#3b82f6" rx="10" stroke-width="2"/>
+  <text x="1070" y="140" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8" font-weight="bold">USER ACCOUNTS</text>
+  <text x="1070" y="185" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#60a5fa">247</text>
+  <text x="1070" y="220" font-family="Arial, sans-serif" font-size="13" fill="#ef4444">12 inactive accounts</text>
+  <text x="1070" y="240" font-family="Arial, sans-serif" font-size="13" fill="#f59e0b">5 default passwords</text>
+  <text x="1070" y="260" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Active: 235 | Locked: 3</text>
+  <text x="1070" y="275" font-family="Arial, sans-serif" font-size="11" fill="#10b981">MFA Enabled: 89%</text>
   
   <!-- Critical Vulnerabilities -->
-  <rect x="20" y="280" width="560" height="300" fill="#ffffff" stroke="#e0e0e0" rx="4"/>
-  <text x="40" y="310" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#dc2626">Critical Vulnerabilities</text>
+  <rect x="30" y="290" width="660" height="320" fill="#1a1a1a" stroke="#dc2626" rx="10" stroke-width="2"/>
+  <text x="50" y="320" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#fca5a5">🚨 Critical Vulnerabilities</text>
   
   <!-- Vulnerability 1 -->
-  <rect x="40" y="330" width="520" height="70" fill="#fee2e2" stroke="#dc2626" rx="4"/>
-  <text x="60" y="355" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">🔴 Default Oracle Accounts Active</text>
-  <text x="60" y="375" font-family="Arial, sans-serif" font-size="12" fill="#666">5 default Oracle accounts (SYS, SYSTEM, etc.) have default passwords</text>
-  <text x="60" y="390" font-family="Arial, sans-serif" font-size="12" fill="#dc2626">Risk: Critical | Impact: Full database access</text>
+  <rect x="60" y="340" width="600" height="85" fill="#1e1e1e" stroke="#ef4444" rx="8" stroke-width="2"/>
+  <text x="80" y="365" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#fca5a5">🔴 Default Oracle Accounts Active</text>
+  <text x="80" y="390" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">5 default Oracle accounts (SYS, SYSTEM, DBSNMP, etc.) have default passwords</text>
+  <text x="80" y="410" font-family="Arial, sans-serif" font-size="12" fill="#ef4444" font-weight="bold">Risk: Critical | Impact: Full database access | CVSS: 9.8</text>
+  <text x="80" y="425" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5">Affected Accounts: SYS, SYSTEM, DBSNMP, SYSMAN, OUTLN</text>
   
   <!-- Vulnerability 2 -->
-  <rect x="40" y="410" width="520" height="70" fill="#fee2e2" stroke="#dc2626" rx="4"/>
-  <text x="60" y="435" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">🔴 Missing Security Patches</text>
-  <text x="60" y="455" font-family="Arial, sans-serif" font-size="12" fill="#666">Database is missing 3 critical security patches (CVE-2024-1234, CVE-2024-5678)</text>
-  <text x="60" y="470" font-family="Arial, sans-serif" font-size="12" fill="#dc2626">Risk: Critical | Impact: Remote code execution</text>
+  <rect x="60" y="435" width="600" height="85" fill="#1e1e1e" stroke="#ef4444" rx="8" stroke-width="2"/>
+  <text x="80" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#fca5a5">🔴 Missing Security Patches</text>
+  <text x="80" y="485" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Database is missing 3 critical security patches</text>
+  <text x="80" y="505" font-family="Arial, sans-serif" font-size="12" fill="#ef4444" font-weight="bold">Risk: Critical | Impact: Remote code execution | CVSS: 9.1</text>
+  <text x="80" y="520" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5">CVE-2024-1234, CVE-2024-5678, CVE-2024-9012</text>
   
   <!-- Vulnerability 3 -->
-  <rect x="40" y="490" width="520" height="70" fill="#fee2e2" stroke="#dc2626" rx="4"/>
-  <text x="60" y="515" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">🔴 Excessive Privileges</text>
-  <text x="60" y="535" font-family="Arial, sans-serif" font-size="12" fill="#666">12 user accounts have DBA privileges without business justification</text>
-  <text x="60" y="550" font-family="Arial, sans-serif" font-size="12" fill="#dc2626">Risk: Critical | Impact: Unauthorized data access</text>
+  <rect x="60" y="530" width="600" height="85" fill="#1e1e1e" stroke="#ef4444" rx="8" stroke-width="2"/>
+  <text x="80" y="555" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#fca5a5">🔴 Excessive Privileges</text>
+  <text x="80" y="580" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">12 user accounts have DBA privileges without business justification</text>
+  <text x="80" y="600" font-family="Arial, sans-serif" font-size="12" fill="#ef4444" font-weight="bold">Risk: Critical | Impact: Unauthorized data access | CVSS: 8.5</text>
+  <text x="80" y="615" font-family="Arial, sans-serif" font-size="11" fill="#fca5a5">Affected Users: APP_USER_1, DEV_USER_3, TEST_USER_5, ...</text>
   
-  <!-- High Priority Issues -->
-  <rect x="40" y="570" width="520" height="70" fill="#fef3c7" stroke="#d97706" rx="4"/>
-  <text x="60" y="595" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d97706">🟡 Encryption Not Enabled</text>
-  <text x="60" y="615" font-family="Arial, sans-serif" font-size="12" fill="#666">TDE (Transparent Data Encryption) is not enabled for sensitive tables</text>
-  <text x="60" y="630" font-family="Arial, sans-serif" font-size="12" fill="#d97706">Risk: High | Impact: Data breach risk</text>
+  <!-- High Priority Issue -->
+  <rect x="60" y="625" width="600" height="70" fill="#1e1e1e" stroke="#f59e0b" rx="8" stroke-width="2"/>
+  <text x="80" y="650" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#fbbf24">🟡 Encryption Not Enabled</text>
+  <text x="80" y="675" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">TDE (Transparent Data Encryption) is not enabled for sensitive tables</text>
+  <text x="80" y="690" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b" font-weight="bold">Risk: High | Impact: Data breach risk | CVSS: 7.2</text>
   
   <!-- Compliance Status -->
-  <rect x="600" y="280" width="580" height="300" fill="#ffffff" stroke="#e0e0e0" rx="4"/>
-  <text x="620" y="310" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#dc2626">Compliance Status</text>
+  <rect x="710" y="290" width="660" height="320" fill="#1a1a1a" stroke="#334155" rx="10" stroke-width="2"/>
+  <text x="730" y="320" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#f1f5f9">📋 Compliance Status</text>
   
-  <!-- SOX Compliance -->
-  <rect x="620" y="330" width="540" height="60" fill="#f0fdf4" stroke="#16a34a" rx="4"/>
-  <text x="640" y="355" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#16a34a">✅ SOX Compliance</text>
-  <text x="640" y="375" font-family="Arial, sans-serif" font-size="12" fill="#666">Access controls: ✅ | Audit trails: ✅ | Change management: ✅</text>
-  <text x="640" y="390" font-family="Arial, sans-serif" font-size="11" fill="#059669">Compliant - All requirements met</text>
+  <!-- SOX -->
+  <rect x="740" y="350" width="600" height="70" fill="#0f172a" stroke="#10b981" rx="8" stroke-width="2"/>
+  <text x="760" y="375" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34d399">✅ SOX Compliance</text>
+  <text x="760" y="400" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Access controls: ✅ | Audit trails: ✅ | Change management: ✅</text>
+  <text x="760" y="415" font-family="Arial, sans-serif" font-size="12" fill="#10b981">Compliant - All requirements met | Last audit: 30 days ago</text>
   
-  <!-- GDPR Compliance -->
-  <rect x="620" y="400" width="540" height="60" fill="#f0fdf4" stroke="#16a34a" rx="4"/>
-  <text x="640" y="425" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#16a34a">✅ GDPR Compliance</text>
-  <text x="640" y="445" font-family="Arial, sans-serif" font-size="12" fill="#666">Data encryption: ✅ | Right to deletion: ✅ | Consent management: ✅</text>
-  <text x="640" y="460" font-family="Arial, sans-serif" font-size="11" fill="#059669">Compliant - All requirements met</text>
+  <!-- GDPR -->
+  <rect x="740" y="430" width="600" height="70" fill="#0f172a" stroke="#10b981" rx="8" stroke-width="2"/>
+  <text x="760" y="455" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34d399">✅ GDPR Compliance</text>
+  <text x="760" y="480" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Data encryption: ✅ | Right to deletion: ✅ | Consent management: ✅</text>
+  <text x="760" y="495" font-family="Arial, sans-serif" font-size="12" fill="#10b981">Compliant - All requirements met | Last audit: 45 days ago</text>
   
-  <!-- HIPAA Compliance -->
-  <rect x="620" y="470" width="540" height="60" fill="#fef3c7" stroke="#d97706" rx="4"/>
-  <text x="640" y="495" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d97706">⚠️ HIPAA Compliance</text>
-  <text x="640" y="515" font-family="Arial, sans-serif" font-size="12" fill="#666">Access controls: ✅ | Audit logs: ⚠️ | Encryption: ⚠️</text>
-  <text x="640" y="530" font-family="Arial, sans-serif" font-size="11" fill="#d97706">Partially Compliant - 2 issues need attention</text>
+  <!-- HIPAA -->
+  <rect x="740" y="510" width="600" height="70" fill="#0f172a" stroke="#f59e0b" rx="8" stroke-width="2"/>
+  <text x="760" y="535" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#fbbf24">⚠️ HIPAA Compliance</text>
+  <text x="760" y="560" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Access controls: ✅ | Audit logs: ⚠️ | Encryption: ⚠️</text>
+  <text x="760" y="575" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b">Partially Compliant - 2 issues need attention</text>
   
-  <!-- PCI-DSS Compliance -->
-  <rect x="620" y="540" width="540" height="60" fill="#fef3c7" stroke="#d97706" rx="4"/>
-  <text x="640" y="565" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d97706">⚠️ PCI-DSS Compliance</text>
-  <text x="640" y="585" font-family="Arial, sans-serif" font-size="12" fill="#666">Network security: ✅ | Data encryption: ⚠️ | Access control: ⚠️</text>
-  <text x="640" y="600" font-family="Arial, sans-serif" font-size="11" fill="#d97706">Partially Compliant - 2 issues need attention</text>
+  <!-- PCI-DSS -->
+  <rect x="740" y="590" width="600" height="70" fill="#0f172a" stroke="#f59e0b" rx="8" stroke-width="2"/>
+  <text x="760" y="615" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#fbbf24">⚠️ PCI-DSS Compliance</text>
+  <text x="760" y="640" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Network security: ✅ | Data encryption: ⚠️ | Access control: ⚠️</text>
+  <text x="760" y="655" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b">Partially Compliant - 2 issues need attention</text>
   
   <!-- Security Recommendations -->
-  <rect x="20" y="600" width="1160" height="170" fill="#ffffff" stroke="#e0e0e0" rx="4"/>
-  <text x="40" y="630" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#dc2626">Security Recommendations</text>
+  <rect x="30" y="630" width="1340" height="250" fill="#1a1a1a" stroke="#334155" rx="10" stroke-width="2"/>
+  <text x="50" y="660" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#f1f5f9">🛡️ Security Recommendations</text>
   
   <!-- Recommendation 1 -->
-  <rect x="40" y="650" width="360" height="100" fill="#f0fdf4" stroke="#16a34a" rx="4"/>
-  <text x="60" y="675" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#16a34a">Change Default Passwords</text>
-  <text x="60" y="695" font-family="Arial, sans-serif" font-size="11" fill="#666">Immediately change passwords for 5 default accounts</text>
-  <text x="60" y="710" font-family="Arial, sans-serif" font-size="11" fill="#666">Priority: Critical</text>
-  <text x="60" y="725" font-family="Arial, sans-serif" font-size="11" fill="#059669">Impact: High security improvement</text>
+  <rect x="60" y="690" width="420" height="170" fill="#0f172a" stroke="#10b981" rx="8" stroke-width="2"/>
+  <text x="80" y="720" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34d399">🔑 Change Default Passwords</text>
+  <text x="80" y="745" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Immediately change passwords for 5 default Oracle accounts</text>
+  <text x="80" y="765" font-family="Arial, sans-serif" font-size="12" fill="#fca5a5" font-weight="bold">Priority: Critical | Impact: High</text>
+  <text x="80" y="785" font-family="Arial, sans-serif" font-size="12" fill="#10b981">Security improvement: +15 points</text>
+  <text x="80" y="805" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Effort: Low | Time: 30 minutes</text>
+  <text x="80" y="825" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Affected: SYS, SYSTEM, DBSNMP, SYSMAN, OUTLN</text>
+  <rect x="350" y="800" width="100" height="35" fill="#10b981" rx="6"/>
+  <text x="400" y="822" font-family="Arial, sans-serif" font-size="12" fill="#0f172a" text-anchor="middle" font-weight="bold">APPLY FIX</text>
   
   <!-- Recommendation 2 -->
-  <rect x="420" y="650" width="360" height="100" fill="#f0fdf4" stroke="#16a34a" rx="4"/>
-  <text x="440" y="675" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#16a34a">Apply Security Patches</text>
-  <text x="440" y="695" font-family="Arial, sans-serif" font-size="11" fill="#666">Install 3 critical security patches immediately</text>
-  <text x="440" y="710" font-family="Arial, sans-serif" font-size="11" fill="#666">Priority: Critical</text>
-  <text x="440" y="725" font-family="Arial, sans-serif" font-size="11" fill="#059669">Impact: Prevents remote exploits</text>
+  <rect x="500" y="690" width="420" height="170" fill="#0f172a" stroke="#10b981" rx="8" stroke-width="2"/>
+  <text x="520" y="720" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34d399">🔧 Apply Security Patches</text>
+  <text x="520" y="745" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Install 3 critical security patches immediately</text>
+  <text x="520" y="765" font-family="Arial, sans-serif" font-size="12" fill="#fca5a5" font-weight="bold">Priority: Critical | Impact: High</text>
+  <text x="520" y="785" font-family="Arial, sans-serif" font-size="12" fill="#10b981">Prevents remote code execution</text>
+  <text x="520" y="805" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Effort: Medium | Time: 2 hours</text>
+  <text x="520" y="825" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Patches: CVE-2024-1234, CVE-2024-5678, CVE-2024-9012</text>
+  <rect x="790" y="800" width="100" height="35" fill="#10b981" rx="6"/>
+  <text x="840" y="822" font-family="Arial, sans-serif" font-size="12" fill="#0f172a" text-anchor="middle" font-weight="bold">APPLY FIX</text>
   
   <!-- Recommendation 3 -->
-  <rect x="800" y="650" width="360" height="100" fill="#f0fdf4" stroke="#16a34a" rx="4"/>
-  <text x="820" y="675" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#16a34a">Review User Privileges</text>
-  <text x="820" y="695" font-family="Arial, sans-serif" font-size="11" fill="#666">Remove DBA privileges from 12 unnecessary accounts</text>
-  <text x="820" y="710" font-family="Arial, sans-serif" font-size="11" fill="#666">Priority: Critical</text>
-  <text x="820" y="725" font-family="Arial, sans-serif" font-size="11" fill="#059669">Impact: Reduces attack surface</text>
+  <rect x="940" y="690" width="420" height="170" fill="#0f172a" stroke="#10b981" rx="8" stroke-width="2"/>
+  <text x="960" y="720" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34d399">👥 Review User Privileges</text>
+  <text x="960" y="745" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Remove DBA privileges from 12 unnecessary accounts</text>
+  <text x="960" y="765" font-family="Arial, sans-serif" font-size="12" fill="#fca5a5" font-weight="bold">Priority: Critical | Impact: High</text>
+  <text x="960" y="785" font-family="Arial, sans-serif" font-size="12" fill="#10b981">Reduces attack surface significantly</text>
+  <text x="960" y="805" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Effort: Medium | Time: 4 hours</text>
+  <text x="960" y="825" font-family="Arial, sans-serif" font-size="11" fill="#94a3b8">Affected: 12 users with excessive privileges</text>
+  <rect x="1230" y="800" width="100" height="35" fill="#10b981" rx="6"/>
+  <text x="1280" y="822" font-family="Arial, sans-serif" font-size="12" fill="#0f172a" text-anchor="middle" font-weight="bold">APPLY FIX</text>
 </svg>
-
